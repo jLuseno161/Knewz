@@ -1,4 +1,4 @@
-class News:
+class Sources:
     '''
     Movie class to define News Objects
     '''

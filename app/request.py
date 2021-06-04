@@ -12,14 +12,14 @@ def configure_request(app):
     base_url = app.config['NEWS_API_BASE_URL']
 
 
-def get_news():
+def get_sources():
     '''
     Function that gets the json response to our url request
     # '''
 
     return
 
-def process_results():
+def get_articles():
     '''
     Function  that processes the movie result and transform them to a list of Objects
     '''
