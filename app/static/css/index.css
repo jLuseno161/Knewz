@@ -1,11 +1,7 @@
-body{
+body {
     background-image: url(./news.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-}
-body h3{
-        color:white;
-        font-weight: 700;
 }
