@@ -5,7 +5,7 @@
     {% for sources in source_row %}
     <div class="col-md-4">
 
-        <!-- <div class="panel panel-default">
+        <div class="panel panel-default">
             <div class="panel-heading">
                 <a href="/sources/{{sources.id}}">
                     {{ sources.name}}
@@ -15,19 +15,19 @@
                 <p>
                     {{ sources.description |truncate(100)}}
                 </p>
-                <a href="/sources/{{sources.id}}" class="btn btn-success btn-sm">Visit {{sources.name}}</a>
+                <a href="/sources/{{sources.id}}" class="btn btn-primary btn-sm">Visit {{sources.name}}</a>
             </div>
-        </div> -->
-        <div class="card border-primary setBorder">
-            <!-- <img src="..." class="card-img-top" alt="..."> -->
-            <div class="card-body">
+        </div>
+        <!-- <div class="card border-primary">
+             <img src="..." class="card-img-top" alt="..."> -->
+        <!-- <div class="card-body">
                 <h5 class="card-title"> <a href="/sources/{{sources.id}}">
                         {{ sources.name}}
                     </a></h5>
                 <p class="card-text"> {{ sources.description |truncate(100)}}</p>
                 <a href="/sources/{{sources.id}}" class="btn btn-primary">Visit {{sources.name}}</a>
             </div>
-        </div>
+        </div> -->
     </div>
     {% endfor %}
 </div>
