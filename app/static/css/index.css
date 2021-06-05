@@ -5,3 +5,7 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
+body h3{
+        color:white;
+        font-weight: 700;
+}
