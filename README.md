@@ -8,6 +8,14 @@
 
 A python program that enables users to view news on different topics based on their source of preference.
 
+## User stories
+
+The user is able to; 
+* See various news sources on the homepage
+* Select a news source and see all news articles from the selected news source
+* See the image, description and the time a news article was created
+* Click on an article and read the full article on the source website
+
 ## Requirements
 
 * This program requires python3.+ installed, a guide on how to install python on various platforms can be found [here](https://www.python.org/)
@@ -25,10 +33,10 @@ Here is a run through of how to set up the application:
 * Git
 * Flask
 * HTML5 & CSS
+* Bootstrap
 * Python 3.8
 * Heroku
 * The following external python libraries were used in this project:
-    - string (inbuilt)
     - os (inbuilt)
     - random (inbuilt)
     - unittest
