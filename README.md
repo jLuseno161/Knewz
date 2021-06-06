@@ -6,7 +6,7 @@
 
 ## Description
 
-A python program that enables users to view news on different topics based on their source of preference.
+A python program that enables users to view news on different topics from various sites based on their source of preference.
 
 ## User stories
 
@@ -38,7 +38,6 @@ Here is a run through of how to set up the application:
 * Heroku
 * The following external python libraries were used in this project:
     - os (inbuilt)
-    - random (inbuilt)
     - unittest
 
 ## Known Bugs
